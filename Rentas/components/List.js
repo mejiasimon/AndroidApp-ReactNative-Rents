@@ -26,7 +26,7 @@ return(
 <Image
         style={{ height: "12.5rem", width: "12.5rem" }}
         source={{
-          uri: "https://firebasestorage.googleapis.com/v0/b/renting-63833.appspot.com/o/car-wash.png?alt=media&token=ea521cb8-2b34-4d1c-ae33-3efa9d6008a2",
+          uri: "https://firebasestorage.googleapis.com/v0/b/renting-63833.appspot.com/o/pngegg.png?alt=media&token=8d21b69e-0394-41e3-967b-632ac1ddc284",
         }}
 ></Image>
 <FlatList
