@@ -38,7 +38,7 @@ export default function Car({navigation,route}){
 return brand==brands && plate==plates
     })
     if (!filtro[0]){
-      var car=new CarObject(plates,brands,1)
+      var car=new CarObject(plates,brands,true)
       vehiculo.push(car)
       console.log(vehiculo)
       setMessage("vehiculo creado")
@@ -52,6 +52,9 @@ return brand==brands && plate==plates
       }
        function NavigateRenta(){
 navigation.navigate("Rent")
+       }
+       function NavigateList(){
+        navigation.navigate("List")
        }
 return(
   <View style={{flex:1,justifyContent: "center",alignItems: "center",flexDirection: "column"}}>
@@ -130,6 +133,12 @@ return(
           style={styles.button}
           icon="account"
           onPress={NavigateRenta}
+        ></Button>
+            <Button
+          label="List"
+          style={styles.button}
+          icon="account"
+          onPress={NavigateList}
         ></Button>
       </View>
 

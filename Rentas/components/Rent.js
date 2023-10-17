@@ -62,7 +62,7 @@ if(filter3[0]){
         if (vehiculo[index].plate == plateS){
           var rent=new RentObject(rentNumberS,UserS,plateS,rentDateS)
           rents.push(rent)
-          vehiculo[index].state=0
+          vehiculo[index].state=false
           setMessage("vehiculo rentado")
       setColor("green")
           break
